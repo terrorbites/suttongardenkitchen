@@ -173,6 +173,10 @@ h2 em { font-family: var(--display); font-weight: 400; font-style: normal; color
 .local-note { background: var(--ink); color: var(--paper); border-radius: 100px; padding: 17px 24px; }
 .local-note>span { color: var(--lime); }
 .local-note p { font-size: .9375rem; }
+.supplier-link { text-decoration: underline; text-underline-offset: 3px; }
+.supplier-link:hover { text-decoration-thickness: 2px; }
+.local-note .supplier-link { color: var(--lime); }
+.local-note .supplier-link:focus-visible { outline-color: var(--paper); }
 .hygiene-note { display: grid; grid-template-columns: minmax(0,291px) minmax(0,1fr); align-items: center; gap: 28px; margin-top: 28px; padding: 24px; border: 2px solid var(--wine); border-radius: 24px; background: var(--paper); }
 .hygiene-badge { display: block; width: 100%; max-width: 291px; }
 .hygiene-badge img { display: block; width: 100%; height: auto; }
