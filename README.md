@@ -30,7 +30,7 @@ This validates local assets, section links, descriptive filenames, business info
 - Text-based breakfast, lunch and drinks menus, always visible with every item and price in the page — no accordions or tabs.
 - Emma’s introduction and original portrait.
 - Photo gallery with keyboard navigation, Escape-to-close and focus restoration.
-- Address, Wednesday–Saturday 9am–2pm hours, tap-to-call, the café’s Google Maps listing and directions to its exact map pin.
+- Address, Wednesday–Saturday 9am–2pm hours, tap-to-call, the café’s Google Maps listing, directions to its map pin and the owner-supplied what3words entrance link: [///shame.bids.latitudes](https://what3words.com/shame.bids.latitudes).
 - CafeOrCoffeeShop structured data, canonical URL, page metadata, sitemap and robots.txt.
 - A leafy “S” favicon matching the café branding: editable `dist/favicon.svg`, a 16/32/48px ICO, a 96px PNG and a 180px Apple touch icon. The SVG contains outlined lettering and needs no external font.
 - Locally hosted Shrikhand and Fraunces fonts with their SIL Open Font Licenses.

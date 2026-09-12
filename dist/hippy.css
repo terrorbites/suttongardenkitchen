@@ -219,6 +219,10 @@ h2 em { font-family: var(--display); font-weight: 400; font-style: normal; color
 .button-light { box-shadow: 4px 4px 0 var(--pink); }
 .button-light:hover { background: #ffe1a0; color: var(--ink); }
 .visit-details address { font-size: 1rem; }
+.what3words-location { margin: 24px 0; padding: 10px 0 10px 15px; border-left: 3px solid var(--lime); }
+.what3words-location>span { display: block; font-size: .875rem; color: var(--paper); }
+.what3words-location a { display: inline-block; max-width: 100%; min-height: 44px; padding-block: 8px; color: var(--lime); font-size: 1rem; font-weight: 600; line-height: 1.75; overflow-wrap: anywhere; text-decoration: underline; text-underline-offset: 4px; }
+.what3words-location a:hover { color: var(--pink); }
 .landmark,.hours-note { font-size: .8125rem; }
 .hours table { font-size: .9375rem; }
 .entrance-photo { border: 3px solid var(--lime); border-radius: 120px 120px 15px 15px; }

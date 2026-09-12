@@ -13,6 +13,7 @@ Keep contact details, regular and holiday hours current, and add genuine photogr
 **Name:** Sutton Garden Kitchen  
 **Address:** Old Yarmouth Road, Norwich, Norfolk, NR12 9RA, United Kingdom  
 **Landmark:** Behind Sutton Building Supplies  
+**what3words entrance:** [///shame.bids.latitudes](https://what3words.com/shame.bids.latitudes) (supplied by the owner)<br>
 **Telephone:** +44 7342 269963  
 **Hours:** Wednesday–Saturday, 09:00–14:00; Sunday–Tuesday closed  
 **Website:** https://sutton-gardens-kitchen.co.uk (add once publicly live)
