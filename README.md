@@ -34,6 +34,7 @@ This validates local assets, section links, descriptive filenames, business info
 - CafeOrCoffeeShop structured data, canonical URL, page metadata, sitemap, robots.txt and a custom favicon.
 - Locally hosted Shrikhand and Fraunces fonts with their SIL Open Font Licenses.
 - All 25 supplied photos copied with descriptive filenames; original Desktop files were preserved. `docs/photo-filenames.json` records every original-to-new filename.
+- A recreated, uncropped logo at `dist/brand/sutton-garden-kitchen-logo.png`, displayed prominently in the responsive header. The original cropped photograph remains in `dist/images/`. See [logo recreation notes](docs/logo-recreation.md) for the source and generation prompt.
 
 ## Edit content
 
