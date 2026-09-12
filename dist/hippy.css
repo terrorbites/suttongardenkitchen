@@ -24,7 +24,7 @@ body { background: var(--paper); }
 .topbar { background: var(--wine); font-size: .875rem; padding-block: 10px; }
 .site-header { padding-block: 12px; }
 .brand { flex-shrink: 0; }
-.brand img { border: 0; border-radius: 0; width: 220px; height: auto; object-fit: contain; mix-blend-mode: multiply; }
+.brand img { border: 0; border-radius: 0; width: 300px; height: auto; object-fit: contain; mix-blend-mode: multiply; }
 .site-header nav { gap: 28px; font-size: .9375rem; }
 .site-header nav>a:not(.button):hover { color: var(--wine); border-color: var(--wine); }
 .button {
@@ -261,7 +261,7 @@ h2 em { font-family: var(--display); font-weight: 400; font-style: normal; color
 
 @media (max-width:900px) and (min-width:801px) {
   .site-header { gap: 15px; padding-inline: 24px; }
-  .brand img { width: 170px; height: auto; }
+  .brand img { width: 240px; height: auto; }
   .site-header nav { gap: 13px; font-size: .8125rem; }
   .button-small { font-size: .8125rem; padding-inline: 13px; }
   .hero { gap: 40px; }
@@ -280,7 +280,7 @@ h2 em { font-family: var(--display); font-weight: 400; font-style: normal; color
   .topbar { font-size: .75rem; padding-inline: 12px; }
   .topbar span { margin-inline: 6px; }
   .site-header { padding: 12px 20px; }
-  .brand img { width: 180px; height: auto; }
+  .brand img { width: 220px; height: auto; }
   .site-header nav { gap: 5px; }
   .nav-toggle { border: 2px solid var(--wine); color: var(--wine); border-radius: 100px; padding: 9px 16px; }
   .hero { gap: 62px; padding-top: 24px; padding-bottom: 88px; }
@@ -345,7 +345,7 @@ h2 em { font-family: var(--display); font-weight: 400; font-style: normal; color
 }
 
 @media (max-width:380px) {
-  .brand img { width: 160px; }
+  .brand img { width: clamp(160px, calc(100vw - 160px), 220px); }
   .hero h1 { font-size: 2.35rem; }
   .hero h1 em { font-size: .68em; }
   .hero .eyebrow { font-size: .75rem; line-height: 1.5; }

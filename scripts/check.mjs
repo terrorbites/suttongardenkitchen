@@ -11,7 +11,8 @@ for (const match of html.matchAll(/\b(?:src|href)="([^"]+)"/g)) {
   if (reference.startsWith('#')) {
     if (reference.length > 1) assert(ids.includes(reference.slice(1)), `Missing anchor ${reference}`);
   } else if (!/^(?:[a-z]+:|\/\/)/i.test(reference)) {
-    await access(join(root, reference));
+    const pathname = decodeURIComponent(new URL(reference, 'https://local.test/').pathname);
+    await access(join(root, pathname));
     files++;
   }
 }
