@@ -1,12 +1,12 @@
-# Getting Sutton Garden Kitchen onto Google Maps
+# Sutton Garden Kitchen Google Business Profile
 
-Publishing this website does not itself create a Google Business Profile. Emma or an authorised manager needs to add or claim the business and complete the verification Google offers. Profile creation is free.
+The owner has created and supplied the [Google Maps listing](https://maps.app.goo.gl/u4Jq4UYSWW8tYnYh6). The website now links to it. Its share link resolves to the café pin at **52.7583262, 1.5335846**; both directions buttons use these coordinates instead of searching by address. Business structured data includes the listing and location.
 
-1. Search Google Maps for Sutton Garden Kitchen first. If a listing exists, claim it; otherwise start at https://business.google.com/add using an account Emma controls.
-2. Use the real business name **Sutton Garden Kitchen**, matching the signage. Choose **Café**, or the closest appropriate category Google offers.
-3. Enter the actual customer-facing address and carefully position the pin at the café. Customers visit this fixed location; explain that it is in the marquee behind Sutton Building Supplies. Google requires permanent fixed business-name signage for a publicly shown business address.
-4. Add the telephone, opening hours and live website below. Follow the available verification method; Google chooses which methods are offered. Video verification can require evidence of the location, business equipment and control of the business.
-5. Add genuine photographs of the approach, welcome sign, horse box, seating, Emma and food. Keep special/holiday hours up to date.
+Ownership and verification status have not been independently checked. Manage the existing profile through Emma’s or an authorised manager’s Google account; there is no need to create another listing.
+
+The share-link redirect uses **Sutton Gardens Kitchen** (plural), while the supplied logo and website use **Sutton Garden Kitchen** (singular). Keep the public business name consistent with the actual signage; the website name has not been changed automatically.
+
+Keep contact details, regular and holiday hours current, and add genuine photographs of the approach, welcome sign, horse box, seating, Emma and food. Add the website address below once it is publicly live.
 
 ## Business details
 
@@ -26,5 +26,3 @@ Sutton Garden Kitchen is a cosy, quirky horse box café in a welcoming marquee b
 - [Add or claim a Business Profile](https://support.google.com/business/answer/2911778?hl=en-GB)
 - [Guidelines for representing your business](https://support.google.com/business/answer/3038177?hl=en-GB)
 - [Verify your business](https://support.google.com/business/answer/7107242?hl=en-GB)
-
-Once the domain and profile are live, use the profile’s own Maps share link on the website. Current links use the supplied business name and address; no verified Maps listing or place ID is claimed.

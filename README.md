@@ -30,7 +30,7 @@ This validates local assets, section links, descriptive filenames, business info
 - Text-based breakfast, lunch and drinks menus, always visible with every item and price in the page — no accordions or tabs.
 - Emma’s introduction and original portrait.
 - Photo gallery with keyboard navigation, Escape-to-close and focus restoration.
-- Address, Wednesday–Saturday 9am–2pm hours, tap-to-call and Google Maps address-based directions.
+- Address, Wednesday–Saturday 9am–2pm hours, tap-to-call, the café’s Google Maps listing and directions to its exact map pin.
 - CafeOrCoffeeShop structured data, canonical URL, page metadata, sitemap and robots.txt.
 - A leafy “S” favicon matching the café branding: editable `dist/favicon.svg`, a 16/32/48px ICO, a 96px PNG and a 180px Apple touch icon. The SVG contains outlined lettering and needs no external font.
 - Locally hosted Shrikhand and Fraunces fonts with their SIL Open Font Licenses.
@@ -62,4 +62,4 @@ npm run check
 
 Then commit and redeploy. This updates canonical links, structured data, sharing URLs, robots.txt and the sitemap together. Choose one primary hostname and redirect other hostnames to it through hosting settings where supported.
 
-See [Google launch notes](docs/google-business-launch.md) for preparing the café’s Google Business Profile.
+See [Google Business Profile notes](docs/google-business-launch.md) for the café’s listing link and business details.
