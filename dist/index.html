@@ -32,7 +32,8 @@
   </script>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23193e32'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-family='Georgia,serif' font-size='45' fill='%23f5f2e9'%3ES%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="styles.css">
-  <link rel="preload" href="fonts/fraunces-semibold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="hippy.css">
+  <link rel="preload" href="fonts/shrikhand-regular.ttf" as="font" type="font/ttf" crossorigin>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -59,6 +60,8 @@
         <p class="hero-location"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg> Behind Sutton Building Supplies, Norfolk</p>
       </div>
       <div class="hero-visual">
+        <span class="hero-flower" aria-hidden="true">✿</span>
+        <div class="art-postcard"><img src="images/colourful-eye-painting.jpg" alt="A vivid rainbow-coloured eye painting displayed at the café" width="828" height="1792"><span>A little colour. A little soul.</span></div>
         <img class="hero-photo" src="images/horse-box-cafe-marquee-interior.jpg" alt="Our green horse box kitchen inside the cosy marquee, with wicker chairs, plants and a piano" width="1536" height="2048" fetchpriority="high">
         <div class="hero-stamp"><span class="peace-glyph" aria-hidden="true">☮</span><strong>Peace, love<br>&amp; a cuppa.</strong><span>EVERYONE’S WELCOME</span></div>
         <span class="photo-note">A horse box. A whole lot of heart.</span>
@@ -66,28 +69,28 @@
     </section>
     <div class="welcome-strip"><span>Proper breakfasts</span><b aria-hidden="true">✿</b><span>Homemade cakes</span><b aria-hidden="true">☮</b><span>Locally sourced meat</span><b aria-hidden="true">✿</b><span>Good vibes, always</span></div>
     <section class="menu-section wrap section-space" id="menu" aria-labelledby="menu-title">
-      <div class="section-heading"><div><p class="eyebrow">Fresh from our little kitchen</p><h2 id="menu-title">Something to make<br><em>your day.</em></h2></div><p>Breakfast with all the trimmings. A lunch worth stopping for. And always room for a little cake.</p></div>
+      <div class="section-heading"><div><p class="eyebrow"><span aria-hidden="true">✿</span> Fresh from our little kitchen <span aria-hidden="true">✿</span></p><h2 id="menu-title">Something to make<br><em>your day.</em></h2></div><p>Breakfast with all the trimmings. A lunch worth stopping for. And always room for a little cake.</p></div>
       <div class="food-grid">
         <article class="food-card">
           <div class="food-photo"><img src="images/full-english-breakfast.jpg" alt="A full English breakfast with bacon, sausages, eggs, black pudding, beans, mushrooms and tomatoes" width="828" height="1792" loading="lazy"></div>
           <div class="food-copy"><p class="small-label">For a very good morning</p><h3>Proper breakfasts</h3><p>Hearty cooked breakfasts and generously filled baps, with all our meat from Cawdrons Butchers.</p>
-          <details class="menu-details"><summary>Breakfast menu <span aria-hidden="true">+</span></summary><div class="menu-list">
+          <div class="menu-board"><h4>Breakfast menu</h4><div class="menu-list">
             <dl><div><dt>Breakfast<small>Bacon, sausage, egg, tomatoes, mushrooms, beans, toast &amp; a cuppa</small></dt><dd>£8.50</dd></div><div><dt>Big Builders<small>2 bacon, 2 sausages, 2 eggs, tomatoes, mushrooms, beans, toast &amp; a cuppa</small></dt><dd>£10.50</dd></div><div><dt>Egg bap</dt><dd>£4.00</dd></div><div><dt>Sausage or bacon bap</dt><dd>£5.00</dd></div><div><dt>Egg &amp; sausage bap</dt><dd>£5.50</dd></div><div><dt>Bacon &amp; egg bap</dt><dd>£5.50</dd></div><div><dt>Bacon, sausage &amp; egg bap</dt><dd>£6.00</dd></div></dl><p class="menu-footnote">Veggie sausages available — just ask Emma.</p>
-          </div></details></div>
+          </div></div></div>
         </article>
         <article class="food-card">
           <div class="food-photo food-photo-toastie"><img src="images/toasted-sandwich-with-salad.jpg" alt="A golden toasted sandwich with salad and crisps, served in the marquee" width="828" height="1792" loading="lazy"></div>
           <div class="food-copy"><p class="small-label">A lovely little lunch stop</p><h3>Lunch favourites</h3><p>Golden toasties, fresh rolls and burgers. Simple, satisfying favourites to enjoy at your own pace.</p>
-          <details class="menu-details"><summary>Lunch menu <span aria-hidden="true">+</span></summary><div class="menu-list">
-            <dl><div><dt>Cheese or ham roll</dt><dd>£4.00</dd></div><div><dt>Ham &amp; cheese roll</dt><dd>£4.50</dd></div><div><dt>Tuna &amp; red onion roll</dt><dd>£4.50</dd></div><div><dt>BLT</dt><dd>£5.50</dd></div><div><dt>Cheese toastie</dt><dd>£5.00</dd></div><div><dt>Cheese &amp; onion toastie</dt><dd>£5.50</dd></div><div><dt>Ham &amp; cheese toastie</dt><dd>£6.00</dd></div><div><dt>4oz burger / 8oz burger</dt><dd>£5.50 / £8.00</dd></div></dl><p class="menu-footnote">Add salad to a roll or cheese to a burger for 50p.</p>
-          </div></details></div>
+          <div class="menu-board"><h4>Lunch menu</h4><div class="menu-list">
+            <dl><div><dt>Cheese or ham roll</dt><dd>£4.00</dd></div><div><dt>Ham &amp; cheese roll</dt><dd>£4.50</dd></div><div><dt>Tuna &amp; red onion roll</dt><dd>£4.50</dd></div><div><dt>BLT</dt><dd>£5.50</dd></div><div><dt>Cheese toastie</dt><dd>£5.00</dd></div><div><dt>Cheese &amp; onion toastie</dt><dd>£5.50</dd></div><div><dt>Ham &amp; cheese toastie</dt><dd>£6.00</dd></div><div><dt>4oz burger</dt><dd>£5.50</dd></div><div><dt>8oz burger</dt><dd>£8.00</dd></div></dl><p class="menu-footnote">Add salad to a roll or cheese to a burger for 50p.</p>
+          </div></div></div>
         </article>
         <article class="food-card">
           <div class="food-photo"><img src="images/strawberry-and-cream-sponge-cake.jpg" alt="Homemade sponge cake layered with cream and topped with strawberries" width="1536" height="2048" loading="lazy"></div>
           <div class="food-copy"><p class="small-label">Go on, treat yourself</p><h3>Cakes &amp; cuppas</h3><p>Homemade cakes, tasty savouries, and hot and cold drinks. See what’s tempting you on the counter today.</p>
-          <details class="menu-details"><summary>Drinks &amp; sweet things <span aria-hidden="true">+</span></summary><div class="menu-list">
+          <div class="menu-board"><h4>Drinks &amp; sweet things</h4><div class="menu-list">
             <dl><div><dt>Tea or fruit tea</dt><dd>£1.50</dd></div><div><dt>Coffee</dt><dd>£2.00</dd></div><div><dt>Hot chocolate</dt><dd>£2.00</dd></div><div><dt>Canned drinks</dt><dd>£1.50</dd></div><div><dt>Water</dt><dd>£1.00</dd></div></dl><p class="menu-footnote">From blackberry crumble slices to banana bread and peach cake, our bakes change. Pop in to see today’s selection.</p>
-          </div></details></div>
+          </div></div></div>
         </article>
       </div>
       <div class="menu-note"><p>Our chalkboard menu changes from time to time. Prices and availability may vary.</p><p>Food allergies or dietary needs? Please speak to Emma before ordering.</p></div>
@@ -95,11 +98,12 @@
     </section>
     <section class="about-section" id="about" aria-labelledby="about-title"><div class="wrap about-grid">
       <div class="owner-photo"><img src="images/emma-sutton-garden-kitchen-owner.jpg" alt="Emma, the owner of Sutton Garden Kitchen, smiling at the horse box counter" width="1536" height="2048" loading="lazy"><span class="owner-caption">The friendly face behind it all.</span></div>
-      <div class="about-copy"><p class="eyebrow">Meet Emma. Make yourself at home.</p><h2 id="about-title">A small café.<br><em>A big heart.</em></h2><p>Sutton Garden Kitchen is Emma’s cosy, quirky little café — a horse box kitchen tucked inside a welcoming marquee, behind Sutton Building Supplies.</p><p>There are colourful corners, comfy seats, books to swap and a piano. It’s a place to take a breather, enjoy something tasty and feel welcome, just as you are.</p><p>Whether you’re popping in for breakfast or settling in with a cuppa, Emma would love to say hello.</p><div class="emma-signoff"><span>See you soon,</span><strong>Emma <span aria-hidden="true">♡</span></strong></div></div>
+      <div class="about-copy"><p class="eyebrow"><span aria-hidden="true">☮</span> Meet Emma. Make yourself at home.</p><h2 id="about-title">A small café.<br><em>A big heart.</em></h2><p>Sutton Garden Kitchen is Emma’s cosy, quirky little café — a horse box kitchen tucked inside a welcoming marquee, behind Sutton Building Supplies.</p><p>There are colourful corners, comfy seats, books to swap and a piano. It’s a place to take a breather, enjoy something tasty and feel welcome, just as you are.</p><p>Whether you’re popping in for breakfast or settling in with a cuppa, Emma would love to say hello.</p><div class="emma-signoff"><span>See you soon,</span><strong>Emma <span aria-hidden="true">♡</span></strong></div></div>
     </div></section>
     <section class="gallery-section wrap section-space" id="gallery" aria-labelledby="gallery-title">
       <div class="section-heading"><div><p class="eyebrow">There’s a little more to us</p><h2 id="gallery-title">Come for a cuppa.<br><em>Stay for the atmosphere.</em></h2></div><p>A few of our favourite corners. A little colour, a little music, and plenty of character.</p></div>
       <div class="gallery-grid">
+        <button class="gallery-item" type="button" data-gallery="4" aria-label="Enlarge photo of the colourful eye painting"><img src="images/colourful-eye-painting.jpg" alt="A rainbow-coloured eye painting in the café" width="828" height="1792" loading="lazy"><span>A splash of colour <b aria-hidden="true">↗</b></span></button>
         <button class="gallery-item" type="button" data-gallery="0" aria-label="Enlarge photo of the café piano and artwork"><img src="images/marquee-piano-and-artwork.jpg" alt="An upright piano surrounded by artwork and flowers" width="560" height="1020" loading="lazy"><span>A little music <b aria-hidden="true">↗</b></span></button>
         <button class="gallery-item" type="button" data-gallery="1" aria-label="Enlarge photo of the cosy marquee sofa"><img src="images/cosy-marquee-sofa-and-guitar.jpg" alt="A comfy sofa with bright cushions, bunting and a guitar above it" width="560" height="1020" loading="lazy"><span>Your cosy corner <b aria-hidden="true">↗</b></span></button>
         <button class="gallery-item" type="button" data-gallery="2" aria-label="Enlarge photo of books to swap"><img src="images/book-swap-and-guitar.jpg" alt="A book swap shelf and basket beside a guitar" width="828" height="1792" loading="lazy"><span>A story to take home <b aria-hidden="true">↗</b></span></button>

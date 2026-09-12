@@ -1,6 +1,6 @@
 # Sutton Garden Kitchen
 
-A fast, responsive website for Emma’s horse box café in Sutton, Norfolk, with a gentle hippy feel: warm colours, retro typography, real café photography and a welcoming voice.
+A fast, responsive website for Emma’s horse box café in Sutton, Norfolk, with a colourful 1970s hippy feel: teal, burgundy and mustard, chunky retro typography, real café photography and a welcoming voice.
 
 ## Website
 
@@ -27,17 +27,17 @@ This validates local assets, section links, descriptive filenames, business info
 ## What’s included
 
 - Responsive desktop and mobile layouts, with a compact navigation menu and mobile call/directions bar.
-- Text-based breakfast, lunch and drinks menus, using accessible native disclosure controls.
+- Text-based breakfast, lunch and drinks menus, always visible with every item and price in the page — no accordions or tabs.
 - Emma’s introduction and original portrait.
 - Photo gallery with keyboard navigation, Escape-to-close and focus restoration.
 - Address, Wednesday–Saturday 9am–2pm hours, tap-to-call and Google Maps address-based directions.
 - CafeOrCoffeeShop structured data, canonical URL, page metadata, sitemap, robots.txt and a custom favicon.
-- Locally hosted Fraunces fonts with their SIL Open Font License.
+- Locally hosted Shrikhand and Fraunces fonts with their SIL Open Font Licenses.
 - All 25 supplied photos copied with descriptive filenames; original Desktop files were preserved. `docs/photo-filenames.json` records every original-to-new filename.
 
 ## Edit content
 
-Edit `dist/index.html`, `dist/styles.css` and `dist/app.js`. Keep visible opening hours, phone and address in sync with the JSON-LD near the top of `index.html`. Prices were transcribed from the supplied chalkboard photographs and should be checked with Emma before launch. Older phone numbers embedded within original photographs are not used for contact links.
+Edit `dist/index.html`, `dist/styles.css`, `dist/hippy.css` and `dist/app.js`. The colourful theme lives in `hippy.css`; `styles.css` supplies the underlying layout. Keep visible opening hours, phone and address in sync with the JSON-LD near the top of `index.html`. Prices were transcribed from the supplied chalkboard photographs and should be checked with Emma before launch. Older phone numbers embedded within original photographs are not used for contact links.
 
 To import the original pictures again, use:
 
