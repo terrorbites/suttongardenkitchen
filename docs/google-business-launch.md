@@ -4,9 +4,11 @@ The owner has created and supplied the [Google Maps listing](https://maps.app.go
 
 Ownership and verification status have not been independently checked. Manage the existing profile through Emma’s or an authorised manager’s Google account; there is no need to create another listing.
 
-The share-link redirect uses **Sutton Gardens Kitchen** (plural), while the supplied logo and website use **Sutton Garden Kitchen** (singular). Keep the public business name consistent with the actual signage; the website name has not been changed automatically.
+The share-link redirect uses **Sutton Gardens Kitchen** (plural), while the supplied logo and website use **Sutton Garden Kitchen** (singular). On 12 September 2026, the owner confirmed the singular spelling. An authorised manager should check the actual name field in Google Business Profile and make it match **Sutton Garden Kitchen** if necessary; the public redirect label alone does not establish the current profile field.
 
 Keep contact details, regular and holiday hours current, and add genuine photographs of the approach, welcome sign, horse box, seating, Emma and food. Add the website address below once it is publicly live.
+
+Domain registration is still pending as of the SEO review. After the domain and public hosting are ready, add the live website URL to the existing profile, confirm the café category and hours, and complete any verification Google requests. See [SEO review and launch checks](seo-review-2026-09-12.md).
 
 ## Business details
 

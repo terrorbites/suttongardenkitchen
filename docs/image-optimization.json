@@ -1,0 +1,326 @@
+[
+  {
+    "source": "brand/sutton-garden-kitchen-logo.png",
+    "width": 1536,
+    "height": 1024,
+    "originalBytes": 1450683,
+    "variants": [
+      {
+        "file": "media/sutton-garden-kitchen-logo-300.webp",
+        "width": 300,
+        "height": 200,
+        "bytes": 15068
+      },
+      {
+        "file": "media/sutton-garden-kitchen-logo-600.webp",
+        "width": 600,
+        "height": 400,
+        "bytes": 36084
+      },
+      {
+        "file": "media/sutton-garden-kitchen-logo-900.webp",
+        "width": 900,
+        "height": 600,
+        "bytes": 58312
+      }
+    ]
+  },
+  {
+    "source": "images/horse-box-cafe-marquee-interior.jpg",
+    "width": 1536,
+    "height": 2048,
+    "originalBytes": 446368,
+    "variants": [
+      {
+        "file": "media/horse-box-cafe-marquee-interior-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 32310
+      },
+      {
+        "file": "media/horse-box-cafe-marquee-interior-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 116772
+      },
+      {
+        "file": "media/horse-box-cafe-marquee-interior-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 239456
+      },
+      {
+        "file": "media/horse-box-cafe-marquee-interior-1440.webp",
+        "width": 1440,
+        "height": 1920,
+        "bytes": 370716
+      }
+    ]
+  },
+  {
+    "source": "images/colourful-eye-painting.jpg",
+    "width": 828,
+    "height": 1792,
+    "originalBytes": 221914,
+    "variants": [
+      {
+        "file": "media/colourful-eye-painting-360.webp",
+        "width": 360,
+        "height": 779,
+        "bytes": 39516
+      },
+      {
+        "file": "media/colourful-eye-painting-720.webp",
+        "width": 720,
+        "height": 1558,
+        "bytes": 140566
+      },
+      {
+        "file": "media/colourful-eye-painting-828.webp",
+        "width": 828,
+        "height": 1792,
+        "bytes": 192528
+      }
+    ]
+  },
+  {
+    "source": "images/full-english-breakfast.jpg",
+    "width": 828,
+    "height": 1792,
+    "originalBytes": 135088,
+    "variants": [
+      {
+        "file": "media/full-english-breakfast-360.webp",
+        "width": 360,
+        "height": 779,
+        "bytes": 40172
+      },
+      {
+        "file": "media/full-english-breakfast-720.webp",
+        "width": 720,
+        "height": 1558,
+        "bytes": 94846
+      },
+      {
+        "file": "media/full-english-breakfast-828.webp",
+        "width": 828,
+        "height": 1792,
+        "bytes": 111092
+      }
+    ]
+  },
+  {
+    "source": "images/toasted-sandwich-with-salad.jpg",
+    "width": 828,
+    "height": 1792,
+    "originalBytes": 81947,
+    "variants": [
+      {
+        "file": "media/toasted-sandwich-with-salad-360.webp",
+        "width": 360,
+        "height": 779,
+        "bytes": 15572
+      },
+      {
+        "file": "media/toasted-sandwich-with-salad-720.webp",
+        "width": 720,
+        "height": 1558,
+        "bytes": 41430
+      },
+      {
+        "file": "media/toasted-sandwich-with-salad-828.webp",
+        "width": 828,
+        "height": 1792,
+        "bytes": 54812
+      }
+    ]
+  },
+  {
+    "source": "images/strawberry-and-cream-sponge-cake.jpg",
+    "width": 1536,
+    "height": 2048,
+    "originalBytes": 241197,
+    "variants": [
+      {
+        "file": "media/strawberry-and-cream-sponge-cake-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 25868
+      },
+      {
+        "file": "media/strawberry-and-cream-sponge-cake-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 70356
+      },
+      {
+        "file": "media/strawberry-and-cream-sponge-cake-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 119126
+      },
+      {
+        "file": "media/strawberry-and-cream-sponge-cake-1440.webp",
+        "width": 1440,
+        "height": 1920,
+        "bytes": 166822
+      }
+    ]
+  },
+  {
+    "source": "images/emma-sutton-garden-kitchen-owner.jpg",
+    "width": 1536,
+    "height": 2048,
+    "originalBytes": 386769,
+    "variants": [
+      {
+        "file": "media/emma-sutton-garden-kitchen-owner-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 23130
+      },
+      {
+        "file": "media/emma-sutton-garden-kitchen-owner-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 84818
+      },
+      {
+        "file": "media/emma-sutton-garden-kitchen-owner-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 178988
+      },
+      {
+        "file": "media/emma-sutton-garden-kitchen-owner-1440.webp",
+        "width": 1440,
+        "height": 1920,
+        "bytes": 273576
+      }
+    ]
+  },
+  {
+    "source": "images/marquee-piano-and-artwork.jpg",
+    "width": 560,
+    "height": 1020,
+    "originalBytes": 103366,
+    "variants": [
+      {
+        "file": "media/marquee-piano-and-artwork-360.webp",
+        "width": 360,
+        "height": 656,
+        "bytes": 49656
+      },
+      {
+        "file": "media/marquee-piano-and-artwork-560.webp",
+        "width": 560,
+        "height": 1020,
+        "bytes": 95072
+      }
+    ]
+  },
+  {
+    "source": "images/cosy-marquee-sofa-and-guitar.jpg",
+    "width": 560,
+    "height": 1020,
+    "originalBytes": 84903,
+    "variants": [
+      {
+        "file": "media/cosy-marquee-sofa-and-guitar-360.webp",
+        "width": 360,
+        "height": 656,
+        "bytes": 35348
+      },
+      {
+        "file": "media/cosy-marquee-sofa-and-guitar-560.webp",
+        "width": 560,
+        "height": 1020,
+        "bytes": 78562
+      }
+    ]
+  },
+  {
+    "source": "images/book-swap-and-guitar.jpg",
+    "width": 828,
+    "height": 1792,
+    "originalBytes": 157676,
+    "variants": [
+      {
+        "file": "media/book-swap-and-guitar-360.webp",
+        "width": 360,
+        "height": 779,
+        "bytes": 42324
+      },
+      {
+        "file": "media/book-swap-and-guitar-720.webp",
+        "width": 720,
+        "height": 1558,
+        "bytes": 113800
+      },
+      {
+        "file": "media/book-swap-and-guitar-828.webp",
+        "width": 828,
+        "height": 1792,
+        "bytes": 131014
+      }
+    ]
+  },
+  {
+    "source": "images/quirky-gifts-and-macrame-mirror.jpg",
+    "width": 1536,
+    "height": 2048,
+    "originalBytes": 490368,
+    "variants": [
+      {
+        "file": "media/quirky-gifts-and-macrame-mirror-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 39074
+      },
+      {
+        "file": "media/quirky-gifts-and-macrame-mirror-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 124476
+      },
+      {
+        "file": "media/quirky-gifts-and-macrame-mirror-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 238976
+      },
+      {
+        "file": "media/quirky-gifts-and-macrame-mirror-1440.webp",
+        "width": 1440,
+        "height": 1920,
+        "bytes": 361426
+      }
+    ]
+  },
+  {
+    "source": "images/cafe-entrance-behind-sutton-building-supplies.jpg",
+    "width": 828,
+    "height": 1792,
+    "originalBytes": 263854,
+    "variants": [
+      {
+        "file": "media/cafe-entrance-behind-sutton-building-supplies-360.webp",
+        "width": 360,
+        "height": 779,
+        "bytes": 67306
+      },
+      {
+        "file": "media/cafe-entrance-behind-sutton-building-supplies-720.webp",
+        "width": 720,
+        "height": 1558,
+        "bytes": 213118
+      },
+      {
+        "file": "media/cafe-entrance-behind-sutton-building-supplies-828.webp",
+        "width": 828,
+        "height": 1792,
+        "bytes": 264686
+      }
+    ]
+  }
+]

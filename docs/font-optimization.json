@@ -1,0 +1,61 @@
+{
+  "fonttools_version": "4.65.0",
+  "brotli_version": "1.2.0",
+  "fonts": [
+    {
+      "source": "dist/fonts/fraunces-semibold.ttf",
+      "output": "dist/fonts/fraunces-semibold.woff2",
+      "source_bytes": 71632,
+      "output_bytes": 30724,
+      "reduction_percent": 57.11,
+      "glyphs": 683,
+      "source_sha256": "ff7cf63717c27756df857ca12045a83522569f7b561bedaff813a25274eb263f",
+      "output_sha256": "cf1f8a611047ad6f0d71ce009fd5c889004fee39de7a8a5a6b8b753b7c1f84ce",
+      "validation": "Passed: identical glyph order, full character map, all glyph coordinates/contours/flags/instructions, font naming, OS/2 styling and all non-container tables. Source unchanged.",
+      "container_storage_table_differences": [
+        "head",
+        "loca"
+      ]
+    },
+    {
+      "source": "dist/fonts/fraunces-semibold-italic.ttf",
+      "output": "dist/fonts/fraunces-semibold-italic.woff2",
+      "source_bytes": 85176,
+      "output_bytes": 37804,
+      "reduction_percent": 55.62,
+      "glyphs": 683,
+      "source_sha256": "1a865c8644e7443cc9e517846078de52f6a6186877d64fe1b0a490850adaba47",
+      "output_sha256": "c6d94846cbe719590871444c84a10501651ab813094da30cdd3a0d67df5277df",
+      "validation": "Passed: identical glyph order, full character map, all glyph coordinates/contours/flags/instructions, font naming, OS/2 styling and all non-container tables. Source unchanged.",
+      "container_storage_table_differences": [
+        "head",
+        "loca"
+      ]
+    },
+    {
+      "source": "dist/fonts/shrikhand-regular.ttf",
+      "output": "dist/fonts/shrikhand-regular.woff2",
+      "source_bytes": 213200,
+      "output_bytes": 58912,
+      "reduction_percent": 72.37,
+      "glyphs": 829,
+      "source_sha256": "144688d2fc1cf9cd7ed5664871bb28f4e8a7069e4c33e14713123c5bdf347f4f",
+      "output_sha256": "f199dd0fe5d1ee251f121ade3d808df231ff2a5bd7e4e7f21a215fe8110032e3",
+      "validation": "Passed: identical glyph order, full character map, all glyph coordinates/contours/flags/instructions, font naming, OS/2 styling and all non-container tables. Source unchanged.",
+      "container_storage_table_differences": [
+        "head",
+        "loca"
+      ]
+    }
+  ],
+  "licenses": [
+    {
+      "file": "dist/fonts/OFL.txt",
+      "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b"
+    },
+    {
+      "file": "dist/fonts/Shrikhand-OFL.txt",
+      "sha256": "325e890b8b26fe0a683c3ba24c506d902bdd7034d9c47bd7fa2bb72b5433b9c9"
+    }
+  ]
+}

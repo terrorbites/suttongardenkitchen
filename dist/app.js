@@ -24,19 +24,24 @@ document.querySelector('#year').textContent = String(new Date().getFullYear());
 const gallery = [...document.querySelectorAll('[data-gallery]')];
 const viewer = document.querySelector('.lightbox');
 const viewerImage = document.querySelector('#lightbox-image');
+const emptyImage = viewerImage.getAttribute('src');
 const caption = document.querySelector('#lightbox-caption');
 let activePhoto = 0;
 let opener;
 function displayPhoto(index) {
   activePhoto = (index + gallery.length) % gallery.length;
   const source = gallery[activePhoto].querySelector('img');
-  viewerImage.src = source.src;
+  viewerImage.width = Number(gallery[activePhoto].dataset.imageWidth);
+  viewerImage.height = Number(gallery[activePhoto].dataset.imageHeight);
+  viewerImage.src = gallery[activePhoto].href;
   viewerImage.alt = source.alt;
   caption.textContent = source.alt;
   document.querySelector('#photo-count').textContent = `${activePhoto + 1} / ${gallery.length}`;
 }
-gallery.forEach((button, index) => button.addEventListener('click', () => {
-  opener = button;
+gallery.forEach((link, index) => link.addEventListener('click', (event) => {
+  if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || typeof viewer.showModal !== 'function') return;
+  event.preventDefault();
+  opener = link;
   displayPhoto(index);
   viewer.showModal();
   document.body.classList.add('modal-open');
@@ -56,5 +61,6 @@ viewer.addEventListener('click', (event) => {
 });
 viewer.addEventListener('close', () => {
   document.body.classList.remove('modal-open');
+  viewerImage.src = emptyImage;
   opener?.focus();
 });

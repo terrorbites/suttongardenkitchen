@@ -1,0 +1,20 @@
+{
+  "baseline": {
+    "uniquePageImageBytes": 4064133,
+    "eagerImageBytes": 2222331,
+    "headerHeroPostcardBytes": 2118965,
+    "fontBytes": 370008
+  },
+  "after": {
+    "uniqueDefaultImageBytes": 1249416,
+    "eagerDefaultImageBytes": 192372,
+    "logo600Bytes": 36084,
+    "fontBytes": 127440
+  },
+  "eager": [
+    "media/sutton-garden-kitchen-logo-600.webp",
+    "media/colourful-eye-painting-360.webp",
+    "media/horse-box-cafe-marquee-interior-720.webp"
+  ],
+  "note": "Raw file bytes for HTML default src values. Responsive browsers select srcset candidates based on viewport and DPR; these are not measured transfer or Core Web Vitals scores."
+}
