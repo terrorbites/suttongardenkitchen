@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sutton-garden-kitchen.honey-okapi-4832.chatgpt.site/sitemap.xml

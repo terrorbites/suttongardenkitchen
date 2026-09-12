@@ -1,0 +1,39 @@
+import { copyFile, mkdir, writeFile } from 'node:fs/promises';
+import { resolve, join } from 'node:path';
+const source = process.argv[2];
+if (!source) throw new Error('Pass the original photo directory as the first argument.');
+const root = resolve(import.meta.dirname, '..');
+const photos = {
+  '743824738_122164825982648181_6812917902211970688_n.jpg': 'sutton-garden-kitchen-welcome-chalkboard.jpg',
+  '760620767_2011699376142095_2951221884598993877_n.jpg': 'chocolate-chip-banana-bread.jpg',
+  '765059416_1107786275038698_6778061263895219012_n.jpg': 'full-english-breakfast.jpg',
+  '770908289_1816452543048085_802801800089991370_n.jpg': 'book-swap-and-guitar.jpg',
+  '773704939_1802688190887072_2487355452219367370_n.jpg': 'blackberry-crumble-cake-display.jpg',
+  '774407283_4429187464014725_2736898523080117545_n.jpg': 'blackberry-crumble-slices.jpg',
+  '774512763_122167450334648181_8537147007170104375_n.jpg': 'homemade-peach-cake.jpg',
+  '776253035_1300447358662905_60210390097711044_n.jpg': 'strawberry-and-cream-sponge-cake.jpg',
+  '805854212_1413665234042849_5525233277723332087_n.jpg': 'full-english-breakfast-alternate.jpg',
+  'logo.jpg': 'sutton-garden-kitchen-logo.jpg',
+  'menu.png': 'horse-box-lunch-and-drinks-menu.png',
+  'menu2.png': 'horse-box-breakfast-menu.png',
+  'Owner Emma.jpg': 'emma-sutton-garden-kitchen-owner.jpg',
+  '495144943_122129231714648181_5944318911321129353_n.jpg': 'cosy-marquee-sofa-and-guitar.jpg',
+  '495179332_122129231630648181_5390793835897971116_n.jpg': 'marquee-piano-and-artwork.jpg',
+  '520004260_122137675514648181_7252637577722459542_n.jpg': 'horse-box-cafe-marquee-interior.jpg',
+  '615872125_122152373366648181_7609909592378692081_n.jpg': 'horse-box-breakfast-and-lunch-chalkboard.jpg',
+  '650890204_122156500862648181_4545306262377967639_n.jpg': 'colourful-crystal-skull-display.jpg',
+  '650964161_122156500826648181_4330534019318895236_n.jpg': 'crystal-towers-and-wishing-bottles.jpg',
+  '651000946_122156500778648181_7411649694237264938_n.jpg': 'quirky-gifts-and-macrame-mirror.jpg',
+  '689149760_122160362888648181_1086651166671701092_n.jpg': 'cheese-and-salad-roll.jpg',
+  '689527126_122160362876648181_3105423486481586555_n.jpg': 'colourful-eye-painting.jpg',
+  '690630559_122160362846648181_5819036287315357521_n.jpg': 'toasted-sandwich-with-salad.jpg',
+  '695101502_122160556844648181_4341879673296889649_n.jpg': 'cafe-entrance-behind-sutton-building-supplies.jpg',
+  '690653779_122160362906648181_7064259025324257453_n.jpg': 'colourful-portrait-artwork.jpg',
+};
+await mkdir(join(root, 'dist/images'), { recursive: true });
+await mkdir(join(root, 'docs'), { recursive: true });
+for (const [original, renamed] of Object.entries(photos)) {
+  await copyFile(join(source, original), join(root, 'dist/images', renamed));
+}
+await writeFile(join(root, 'docs/photo-filenames.json'), JSON.stringify(photos, null, 2) + '\n');
+console.log(`Copied and renamed ${Object.keys(photos).length} photos. Originals preserved.`);
