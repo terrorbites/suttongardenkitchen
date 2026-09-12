@@ -31,7 +31,8 @@ This validates local assets, section links, descriptive filenames, business info
 - Emma’s introduction and original portrait.
 - Photo gallery with keyboard navigation, Escape-to-close and focus restoration.
 - Address, Wednesday–Saturday 9am–2pm hours, tap-to-call and Google Maps address-based directions.
-- CafeOrCoffeeShop structured data, canonical URL, page metadata, sitemap, robots.txt and a custom favicon.
+- CafeOrCoffeeShop structured data, canonical URL, page metadata, sitemap and robots.txt.
+- A leafy “S” favicon matching the café branding: editable `dist/favicon.svg`, a 16/32/48px ICO, a 96px PNG and a 180px Apple touch icon. The SVG contains outlined lettering and needs no external font.
 - Locally hosted Shrikhand and Fraunces fonts with their SIL Open Font Licenses.
 - All 25 supplied photos copied with descriptive filenames; original Desktop files were preserved. `docs/photo-filenames.json` records every original-to-new filename.
 - A recreated, uncropped logo at `dist/brand/sutton-garden-kitchen-logo.png`, displayed prominently in the responsive header. The original cropped photograph remains in `dist/images/`. See [logo recreation notes](docs/logo-recreation.md) for the source and generation prompt.
