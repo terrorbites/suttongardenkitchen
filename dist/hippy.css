@@ -222,6 +222,10 @@ h2 em { font-family: var(--display); font-weight: 400; font-style: normal; color
 .hours table { font-size: .9375rem; }
 .entrance-photo { border: 3px solid var(--lime); border-radius: 120px 120px 15px 15px; }
 .site-footer { color: var(--wine); }
+.design-credit { flex-basis: 100%; width: 100%; text-align: right; color: var(--muted); font-size: .8125rem; }
+.design-credit a { color: var(--wine); text-decoration: underline; text-underline-offset: 3px; }
+.design-credit a:hover { color: var(--orange); }
+@media (max-width:800px) { .design-credit { flex-basis: auto; text-align: left; } }
 .footer-brand { font-family: var(--display); font-size: 1.3rem; }
 .footer-peace { color: var(--wine); }
 .mobile-actions { background: var(--paper); border-top: 2px solid var(--wine); }
