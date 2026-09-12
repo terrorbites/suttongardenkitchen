@@ -24,6 +24,7 @@ Domain registration is still pending as of the SEO review. After the domain and 
 
 **WhatsApp:** [Message Emma](https://wa.me/447342269963), using the same business number shown on Facebook.<br>
 **Visitor facilities:** Plenty of parking, step-free access and pet friendly, confirmed by the user.<br>
+**Food hygiene rating:** [5 — Very good](https://ratings.food.gov.uk/business/1789062), inspected by North Norfolk on 5 December 2024; verified with the Food Standards Agency on 12 September 2026.<br>
 **Opening updates:** Facebook carries temporary changes; the regular website hours remain Wednesday–Saturday, 9am–2pm, as requested.
 
 ## Suggested description
