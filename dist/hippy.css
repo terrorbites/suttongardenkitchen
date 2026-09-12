@@ -167,6 +167,8 @@ h2 em { font-family: var(--display); font-weight: 400; font-style: normal; color
 .menu-list small { font-size: .8125rem; line-height: 1.6; color: #60624e; }
 .menu-footnote { font-size: .8125rem; color: #555943; line-height: 1.75; }
 .menu-note { color: #474c36; font-size: .8125rem; margin-top: 30px; }
+.payment-note { color: var(--wine); font-size: .9375rem; font-weight: 600; line-height: 1.7; margin: 22px 0 0; }
+.payment-note-visit { color: var(--paper); font-size: .875rem; font-weight: 400; padding-top: 18px; border-top: 1px solid #557362; }
 .local-note { background: var(--ink); color: var(--paper); border-radius: 100px; padding: 17px 24px; }
 .local-note>span { color: var(--lime); }
 .local-note p { font-size: .9375rem; }
