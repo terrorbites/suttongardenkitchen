@@ -227,9 +227,31 @@ h2 em { font-family: var(--display); font-weight: 400; font-style: normal; color
 .hours table { font-size: .9375rem; }
 .entrance-photo { border: 3px solid var(--lime); border-radius: 120px 120px 15px 15px; }
 .site-footer { color: var(--wine); }
-.facebook-link { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-weight: 600; text-decoration: underline; text-underline-offset: 4px; }
-.visit-details .facebook-link { margin-top: 14px; color: var(--lime); }
-.facebook-link:hover { text-decoration-thickness: 2px; }
+.icon-library { position: absolute; width: 0; height: 0; overflow: hidden; }
+.social-link { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; max-width: 100%; padding-block: 8px; font-weight: 600; line-height: 1.5; text-decoration: underline; text-underline-offset: 4px; }
+.social-link:hover { text-decoration-thickness: 2px; }
+.social-icon { width: 22px; height: 22px; flex: 0 0 22px; }
+.contact-links,.footer-socials { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; }
+.contact-links { margin-top: 18px; font-size: .875rem; color: var(--lime); }
+.visit-grid>* { min-width: 0; }
+.visit-section a:focus-visible { outline-color: var(--lime); }
+.hours-note a { color: var(--lime); text-decoration: underline; text-underline-offset: 3px; }
+.visitor-perks { display: flex; flex-wrap: wrap; gap: 16px 35px; list-style: none; padding: 22px 0; margin: 0 0 36px; border-block: 1px solid #557362; }
+.visitor-perks li { display: flex; align-items: center; gap: 12px; font-size: 1rem; }
+.visitor-perks svg { width: 26px; height: 26px; flex: 0 0 26px; color: var(--lime); }
+.reviews-section { padding-block: 0 85px; color: var(--wine); }
+.reviews-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 24px; }
+.review-card { display: flex; flex-direction: column; min-width: 0; margin: 0; padding: 25px; border: 2px solid var(--wine); border-radius: 30px 30px 12px 12px; background: #f6d486; box-shadow: 4px 5px 0 var(--wine); }
+.review-card:nth-child(2) { background: #e0e8bf; }
+.review-card:nth-child(3) { background: #f4ccce; }
+.review-flower { font-family: var(--serif); font-size: 2.5rem; line-height: 1; margin-bottom: 22px; }
+.review-card blockquote { margin: 0 0 25px; font-family: var(--serif); font-size: 1.375rem; line-height: 1.55; }
+.review-card blockquote p { margin: 0; }
+.review-card figcaption { margin-top: auto; font-size: .8125rem; line-height: 1.6; }
+.review-card figcaption strong { display: block; font-size: .9375rem; }
+.review-card figcaption a { display: inline-block; padding-block: 10px; min-height: 44px; text-decoration: underline; text-underline-offset: 4px; }
+.reviews-footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 24px; margin-top: 28px; font-size: .875rem; }
+.reviews-footer p { margin: 0; color: var(--muted); }
 .design-credit { flex-basis: 100%; width: 100%; text-align: right; color: var(--muted); font-size: .8125rem; }
 .design-credit a { color: var(--wine); text-decoration: underline; text-underline-offset: 3px; }
 .design-credit a:hover { color: var(--orange); }
@@ -285,6 +307,10 @@ h2 em { font-family: var(--display); font-weight: 400; font-style: normal; color
 }
 
 @media (max-width:800px) {
+  .reviews-section { padding-bottom: 60px; }
+  .reviews-grid { grid-template-columns: 1fr; gap: 22px; }
+  .review-card { padding: 24px; }
+  .visitor-perks { gap: 18px 25px; }
   .topbar { font-size: .75rem; padding-inline: 12px; }
   .topbar span { margin-inline: 6px; }
   .site-header { padding: 12px 20px; }
@@ -383,6 +409,6 @@ h2 em { font-family: var(--display); font-weight: 400; font-style: normal; color
   .food-grid { display: block; }
   .food-card { box-shadow: none; break-inside: avoid; margin: 20px 0; }
   .menu-section { background: white; border: 0; box-shadow: none; width: 100%; }
-  .mobile-actions,.site-header,.hero,.welcome-strip,.about-section,.gallery-section,.site-footer { display: none; }
+  .mobile-actions,.site-header,.hero,.welcome-strip,.about-section,.gallery-section,.reviews-section,.site-footer { display: none; }
   .menu-board,.menu-list { display: block; }
 }

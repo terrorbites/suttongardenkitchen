@@ -22,9 +22,13 @@ Domain registration is still pending as of the SEO review. After the domain and 
 
 **Facebook:** [Sutton Garden Kitchen](https://www.facebook.com/profile.php?id=61569445434970) (supplied by the owner and linked from the website).
 
+**WhatsApp:** [Message Emma](https://wa.me/447342269963), using the same business number shown on Facebook.<br>
+**Visitor facilities:** Plenty of parking, step-free access and pet friendly, confirmed by the user.<br>
+**Opening updates:** Facebook carries temporary changes; the regular website hours remain Wednesday–Saturday, 9am–2pm, as requested.
+
 ## Suggested description
 
-Sutton Garden Kitchen is a cosy, quirky, pet-friendly horse box café in a welcoming marquee behind Sutton Building Supplies on Old Yarmouth Road. Join Emma for hearty breakfasts, lunches, hot and cold drinks, homemade cakes and savouries, with all our meat from Cawdrons Butchers. With colourful corners, comfy seating, a piano and books to swap, it’s a friendly place to stop for a cuppa and a chat. Open Wednesday to Saturday, 9am to 2pm. Pop down and say hello!
+Sutton Garden Kitchen is a cosy, quirky, pet-friendly horse box café in a welcoming marquee behind Sutton Building Supplies on Old Yarmouth Road. Join Emma for hearty breakfasts, lunches, hot and cold drinks, homemade cakes and savouries, with all our meat from Cawdrons Butchers. With colourful corners, comfy seating, a piano and books to swap, it’s a friendly place to stop for a cuppa and a chat. There’s plenty of parking and step-free access. Open Wednesday to Saturday, 9am to 2pm. Pop down and say hello!
 
 ## Official guidance
 
